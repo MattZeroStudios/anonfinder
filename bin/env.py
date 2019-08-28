@@ -9,3 +9,30 @@ def output(msg):
 def exit_program():
     sys.exit(0)
 
+
+def show_help():
+    pass
+
+
+def show():
+    pass
+
+
+def search():
+    pass
+
+
+def set_attribute():
+    pass
+
+
+def view_report():
+    pass
+
+
+def list_reports():
+    pass
+
+
+def modify_report():
+    pass

@@ -5,9 +5,6 @@ import sys
 from bin import env
 
 
-
-
-
 def main():
     alive = True
 
@@ -19,7 +16,13 @@ def main():
 
         if user_input == "exit":
             env.output("Thank you for using AnonFinder!")
-            alive = False
+            env.exit_program()
+
+        elif user_input == "help":
+            pass
+
+        elif user_input == "show":
+            pass
 
         else:
             pass

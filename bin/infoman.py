@@ -1,9 +1,8 @@
 from . import env
 
 
-class Manager:
+class SearchManager:
     def __init__(self, identifier):
-        self.id = identifier
         self.first = ""
         self.last = ""
         self.phone = int
@@ -35,4 +34,23 @@ class Manager:
         pass
 
     def fetch_linkedin(self):
+        pass
+
+
+class Person:
+    def __init__(self):
+        self.first = ""
+        self.last = ""
+        self.email = ""
+        self.twitter = ""
+        self.phone = ""
+        self.address = ""
+        self.facebook = ""
+        self.linkedin = ""
+        self.youtube = ""
+        self.misc_data_entries = []
+
+
+class DataStorageManager:
+    def __init__(self):
         pass
